@@ -13,7 +13,7 @@ cc_binary {
     ],
 
     compile_multilib: "32",
-    init_rc: ["android.hardware.cas@1.0-service.rc"],
+    // init_rc: ["android.hardware.cas@1.0-service.rc"],
 
     shared_libs: [
       "android.hardware.cas@1.0",

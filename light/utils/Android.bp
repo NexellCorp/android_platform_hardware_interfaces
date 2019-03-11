@@ -18,7 +18,7 @@
 // Canonical usage is for init (which can't talk to hals directly).
 cc_binary {
     name: "blank_screen",
-    init_rc: ["blank_screen.rc"],
+    // init_rc: ["blank_screen.rc"],
     srcs: ["main.cpp"],
     shared_libs: [
         "android.hardware.light@2.0",

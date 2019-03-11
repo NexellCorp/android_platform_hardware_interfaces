@@ -45,7 +45,7 @@ cc_binary {
     relative_install_path: "hw",
     srcs: ["service.cpp"],
     compile_multilib: "32",
-    init_rc: ["android.hardware.camera.provider@2.4-service.rc"],
+    // init_rc: ["android.hardware.camera.provider@2.4-service.rc"],
     shared_libs: [
         "libhidlbase",
         "libhidltransport",
@@ -69,7 +69,7 @@ cc_binary {
     relative_install_path: "hw",
     srcs: ["service.cpp"],
     compile_multilib: "64",
-    init_rc: ["android.hardware.camera.provider@2.4-service_64.rc"],
+    // init_rc: ["android.hardware.camera.provider@2.4-service_64.rc"],
     shared_libs: [
         "libhidlbase",
         "libhidltransport",
@@ -92,7 +92,7 @@ cc_binary {
     relative_install_path: "hw",
     srcs: ["external-service.cpp"],
     compile_multilib: "32",
-    init_rc: ["android.hardware.camera.provider@2.4-external-service.rc"],
+    // init_rc: ["android.hardware.camera.provider@2.4-external-service.rc"],
     shared_libs: [
         "libhidlbase",
         "libhidltransport",
